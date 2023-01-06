@@ -15,8 +15,7 @@ void addWithCuda_single_thread(int n, float *x, float *y);
 void addWithCuda_multi_thread(int n, float *x, float *y);
 void addWithCuda_multi_block(int n, float *x, float *y);
 
-    int
-    main(void) {
+int main(void) {
     int N = 1 << 20;  // 1M elements
 
     // ========================================================================
